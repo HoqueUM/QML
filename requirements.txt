@@ -1,3 +1,0 @@
-qiskit[machine-learning]
-pennylane
-dwave-scikit-learn-plugin
