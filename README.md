@@ -1,5 +1,5 @@
 # QML
-A Collection of Templates of Quantum Machine Learning for the University of Michigan Biomedical and Clinical Information Lab
+A Collection of Templates of Quantum Machine Learning for the University of Michigan Biomedical and Clinical Information Lab.
 
 # Quantum Simulators
 
@@ -12,6 +12,11 @@ A Collection of Templates of Quantum Machine Learning for the University of Mich
 
 Qiskit's VQC an QSVC inheret methods from scikit-learn classes, making it ideal for ease of use.
 
+### Installation
+```
+pip install qiskit[machine-learning]
+```
+
 ### Pennylane
 [Github](https://github.com/PennyLaneAI)
 >
@@ -20,6 +25,11 @@ Qiskit's VQC an QSVC inheret methods from scikit-learn classes, making it ideal 
 > 
 
 Pennylane is very customizable, making it perfect for machine learning, but requires more time to master.
+
+### Installation
+```
+pip install pennylane
+```
 
 ### DWave
 [Github](https://github.com/dwavesystems)
@@ -30,6 +40,11 @@ Pennylane is very customizable, making it perfect for machine learning, but requ
 
 Requires payment for API, only get 20 minutes of processing time for free.
 Only use DWave for dimensionality reduction.
+
+### Installation
+```
+pip install dwave-scikit-learn-plugin
+```
 
 # Files
 ### Annealing
