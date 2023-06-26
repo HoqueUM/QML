@@ -54,12 +54,14 @@ Dimensionality reduction using quantum annealing.
 A scikit-learn SVC using a quantum kernel.
 
 ### QSVC
-A simple quantum SVC.
+A simple Quantum SVC.
 
 ### VQC
-A simple Variation Quantum Classifier
+A simple Variation Quantum Classifier.
 
 
 
 # Limitations
 Number of qubits must be equal to number of features in the dataset. On current computers this is not practical as it is very computationally expensive.
+>
+The more samples there are the longer these processes take, classical algorithms are faster.
